@@ -26,6 +26,7 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
+    margin-right: 20px;
 }
 
 #locationList {
@@ -34,7 +35,7 @@
     grid-template-rows: repeat(2,auto);
     gap: 20px;
     padding: 20px;
-    width: 625px;
+    width: 500px;
     margin-left: 20px;
 }
 
