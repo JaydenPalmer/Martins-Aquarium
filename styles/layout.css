@@ -1,0 +1,45 @@
+#heading {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+#fishList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,auto);
+    gap: 20px;
+    padding: 20px;
+    max-width: 625px;
+    margin-left: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#locationList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,auto);
+    gap: 20px;
+    padding: 20px;
+    width: 625px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
